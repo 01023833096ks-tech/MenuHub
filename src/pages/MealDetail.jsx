@@ -57,7 +57,7 @@ export default function MealDetail() {
             <span className="badge category">{meal.strCategory}</span>
             <span className="badge area">{meal.strArea}</span>
           </div>
-          <p className="detail-price">Price : 120 L.E</p>
+          <p className="detail-price">Price : 20$</p>
           <button className="add-btn large" onClick={() => AddToCart(meal)}>
             Add to Cart
           </button>

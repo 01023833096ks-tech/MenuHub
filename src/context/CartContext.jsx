@@ -18,7 +18,7 @@ export default function CartProvider({ children }) {
             : item,
         );
       }
-      const price = meal.price || 120;
+      const price = meal.price || 20;
       return [...prevItems, { ...meal, price, quantity: 1 }];
     });
   };

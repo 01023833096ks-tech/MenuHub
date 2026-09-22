@@ -19,7 +19,7 @@ function MenuCard({ meal }) {
         </div>
 
         <div className="card-footer">
-          <span className="price">120 L.E</span>
+          <span className="price">$20</span>
           <button
             className="add-btn"
             aria-label={`Add ${meal.strMeal} to cart`}
