@@ -8,7 +8,7 @@ import { CartPage } from "./pages/CartPage";
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/MenuHub">
         <div className="app-shell">
           <Navbar />
           <main className="app-container">
